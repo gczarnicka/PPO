@@ -46,7 +46,6 @@ void Led::Step(enum Step eStep){
 		LedCtr++;
 		LedCtr = LedCtr % 4;
 		On(LedCtr);
-	}else{
 	}
 }
 

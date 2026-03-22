@@ -1,0 +1,25 @@
+Dependencies for Project 'ppo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x51C7FF5E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\keyboard.cpp)(0x69C00816)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\Users\Gabi\Desktop\PPO\8f\keyboard.h)(0x69BC3AB2)
+F (.\led.cpp)(0x69C001FF)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\Users\Gabi\Desktop\PPO\8f\led.h)(0x69C001FF)
+F (.\ledinv.cpp)(0x69BFE767)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ledinv.o --omf_browse .\ledinv.crf --depend .\ledinv.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\Users\Gabi\Desktop\PPO\8f\ledinv.h)(0x69C0008F)
+I (C:\Users\Gabi\Desktop\PPO\8f\led.h)(0x69C001FF)
+F (.\main.cpp)(0x69C0031F)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\Gabi\Desktop\PPO\8f\stepper.h)(0x69C0008F)
+I (C:\Users\Gabi\Desktop\PPO\8f\led.h)(0x69C001FF)
+I (C:\Users\Gabi\Desktop\PPO\8f\keyboard.h)(0x69BC3AB2)
+I (C:\Users\Gabi\Desktop\PPO\8f\ledinv.h)(0x69C0008F)
+I (C:\Users\Gabi\Desktop\PPO\8f\ledpos.h)(0x69C00328)
+F (.\stepper.cpp)(0x69C0008F)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\stepper.o --omf_browse .\stepper.crf --depend .\stepper.d)
+I (C:\Users\Gabi\Desktop\PPO\8f\stepper.h)(0x69C0008F)
+I (C:\Users\Gabi\Desktop\PPO\8f\led.h)(0x69C001FF)
+F (.\ledpos.cpp)(0x69C0039A)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ledpos.o --omf_browse .\ledpos.crf --depend .\ledpos.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C7FF8C)
+I (C:\Users\Gabi\Desktop\PPO\8f\ledpos.h)(0x69C00328)
+I (C:\Users\Gabi\Desktop\PPO\8f\led.h)(0x69C001FF)

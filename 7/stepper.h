@@ -5,8 +5,9 @@
 
 enum Step{LEFT,RIGHT};
 
-class Stepper : private Led {
+class Stepper {
 private:
+Led MyLed;
 unsigned char LedCtr;
 void Step(enum Step eStep);
 

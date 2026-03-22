@@ -509,13 +509,13 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
          0          0          0          0          0       3080   keyboard.o
-       180          4          0          0          0        848   led.o
-        92          8          4          1          0       1037   main.o
-        32         12          0          0       1160        196   startup.o
-       192          0          0          0          0        752   stepper.o
+       180          4          0          0          0        840   led.o
+        92          8          4          1          0       1025   main.o
+        32         12          0          0       1160        192   startup.o
+       192          0          0          0          0        744   stepper.o
 
     ----------------------------------------------------------------------
-       496         24         36          4       1160       5913   Object Totals
+       496         24         36          4       1160       5881   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          0          0          0          3          0          0   (incl. Padding)
 
@@ -565,8 +565,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-       964         52         36          4       1260       6165   Grand Totals
-       964         52         36          4       1260       6165   ELF Image Totals
+       964         52         36          4       1260       6133   Grand Totals
+       964         52         36          4       1260       6133   ELF Image Totals
        964         52         36          4          0          0   ROM Totals
 
 ==============================================================================

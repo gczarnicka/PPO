@@ -2,6 +2,7 @@
 
 Stepper::Stepper(unsigned char ucStartingPosition) {
 	LedCtr = ucStartingPosition;
+	On(LedCtr);
 }
 
 void Stepper::Step(enum Step eStep){
@@ -14,7 +15,6 @@ void Stepper::Step(enum Step eStep){
 		LedCtr++;
 		LedCtr = LedCtr % 4;
 		On(LedCtr);
-	}else{
 	}
 }
 

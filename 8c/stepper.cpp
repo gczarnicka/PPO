@@ -1,0 +1,28 @@
+#include "stepper.h"
+
+extern unsigned char ucInversion;
+
+void Stepper::Step(enum Step eStep){
+	if(eStep == LEFT){
+		LedCtr--;
+	}
+	else if(eStep == RIGHT){
+		LedCtr++;
+	}
+		LedCtr = LedCtr % 4;
+	
+	if (ucInversion == 1){
+		MyLedInv.On(LedCtr);
+	}else{
+		MyLed.On(LedCtr);
+	}
+}
+
+void Stepper::StepLeft(void){
+	Step(LEFT);
+}
+
+
+void Stepper::StepRight(void){
+	Step(RIGHT);
+}
