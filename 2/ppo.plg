@@ -3,7 +3,7 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Users\Gabi\Desktop\PPO\2\ppo.uvproj
+C:\Users\Gabriela\Desktop\PPO\2\ppo.uvproj
 Project File Date:  03/17/2026
 
 <h2>Output:</h2>
@@ -13,5 +13,5 @@ compiling keyboard.cpp...
 compiling led.cpp...
 compiling main.cpp...
 linking...
-Program Size: Code=864 RO-data=16 RW-data=0 ZI-data=1256  
+Program Size: Code=828 RO-data=16 RW-data=0 ZI-data=1256  
 ".\ppo.axf" - 0 Errors, 0 Warning(s).

@@ -1,6 +1,6 @@
 #include "stepper.h"
 
-Stepper MyStepper;
+Stepper MyStepper(2);
 
 void Delay(int iTimeInMs){
 	int iCycle;
